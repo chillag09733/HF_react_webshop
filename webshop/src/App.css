@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #e36414;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-shadow: 2px 2px #9a031e;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.termekek{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  background-image: url(../public/pics/hatter.jpg);
+}
+
+.kartya {
+  background-color: #1a1a1a; 
+  border: 2px solid #ff0000; 
+  border-radius: 10px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); 
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  margin: 5px;
+  text-align: left;
+  width: 200px;
+}
+
+.kartya:hover {
+  transform: scale(1.05);
+}
+
+.kartya img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.kartya h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.kartya p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.kartya button {
+  background-color: #ff0000;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.kartya button:hover {
+  background-color: #990000;
+}
+h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  color: #9a031e;
+}
+
+ul{
+align-items: center;
+}
+
+.kosar{
+background-color: rgb(255,255,255, 0.4);
+}
+
+li{
+  list-style-type: none;
+  padding: 5px;
+  background-color: #1a1a1a;
+  color: white;
+  width: auto;
+  margin-block: 5px;
+  border-radius: 10px;
+}
+
+.delBtn {
+  background-color: #ff0000;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+
+.delBtn:hover {
+  background-color: #990000;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
