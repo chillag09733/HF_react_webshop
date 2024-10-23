@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./components.css";
 
 export default function Kartya(props){
     function katt(){
