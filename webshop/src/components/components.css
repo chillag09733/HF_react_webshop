@@ -100,3 +100,11 @@ li {
   border-radius: 2px;
   margin-top: 3px;
 }
+
+.subtotal{
+  border-top: 2px solid #503b31;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}

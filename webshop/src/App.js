@@ -39,6 +39,9 @@ function App() {
     },
   ];
 
+  let qty = 0;
+  let subtotal = 0;
+
   function katt(adat){
     console.log("app", adat)
     const kiválasztottTermek = termekLista[adat];
