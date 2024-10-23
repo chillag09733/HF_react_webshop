@@ -13,15 +13,15 @@
   }
 }
 
-.App-header {
-  background-color: #e36414;
-  min-height: 10vh;
+.App-header, footer {
+  background-color: #503b31;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  text-shadow: 2px 2px #9a031e;
+  text-shadow: 2px 2px #9097c0;
   color: white;
 }
 
@@ -49,5 +49,12 @@ article{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .main{
+    display: flex;
+    flex-wrap: wrap;
   }
 }

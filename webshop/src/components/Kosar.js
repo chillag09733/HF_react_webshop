@@ -8,7 +8,7 @@ export default function Kosar(props) {
         <ul>
           {props.kosarLista.map((termek, index) => (
             <li key={index}>
-              {termek.cim} - {termek.ar}$ <br />
+              {termek.cim} - {termek.ar}$
               <button className="delBtn" onClick={() => props.torles(index)}>Delete</button>
             </li>
           ))}

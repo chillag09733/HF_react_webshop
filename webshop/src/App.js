@@ -11,31 +11,31 @@ function App() {
       cim: "Final Girls",
       mufaj: "Thriller",
       ar: 9.5,
-      kep: `${process.env.PUBLIC_URL}/pics/final_girls.jpg`,
+      kep: `${process.env.PUBLIC_URL}/pics/final_girls.png`,
     },
     {
       cim: "The Last Time I Lied",
       mufaj: "Psychological Thriller",
       ar: 10,
-      kep: `${process.env.PUBLIC_URL}/pics/last_time_i_lied.jpg`,
+      kep: `${process.env.PUBLIC_URL}/pics/last_time_i_lied.png`,
     },
     {
       cim: "Lock Every Door",
       mufaj: "Mystery Thriller",
       ar: 9.75,
-      kep: `${process.env.PUBLIC_URL}/pics/lock_every_door.jpg`,
+      kep: `${process.env.PUBLIC_URL}/pics/lock_every_door.png`,
     },
     {
       cim: "Home Before Dark",
       mufaj: "Horror",
       ar: 10.2,
-      kep: `${process.env.PUBLIC_URL}/pics/home_before_dark.jpg`,
+      kep: `${process.env.PUBLIC_URL}/pics/home_before_dark.png`,
     },
     {
       cim: "Survive the Night",
       mufaj: "Suspense Thriller",
       ar: 8,
-      kep: `${process.env.PUBLIC_URL}/pics/survive_the_night.jpg`,
+      kep: `${process.env.PUBLIC_URL}/pics/survive_the_night.png`,
     },
   ];
 
@@ -64,7 +64,7 @@ function App() {
           <Kosar kosarLista={kosarLista} torles = {torles} />
         </div>
       </article>
-      <footer>Massányi Csilla</footer>
+      <footer>@massanyicsilla</footer>
     </div>
   );
 }
