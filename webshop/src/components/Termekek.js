@@ -1,15 +1,13 @@
 import React from "react";
 import Kartya from "./Kartya";
+import { useKivalasztContext } from "./context/KivalasztContext";
 
-export default function Termekek(props){
-    function katt(adat){
-        console.log("termekek", adat)
-        props.katt(adat)
-    }
+export default function Termekek(){
+   const {termekLista, katt} = useKivalasztContext()
 
     return (
         <>
-          {props.termekLista.map((termek, i) => (
+          {termekLista.map((termek, i) => (
             <Kartya
               key={i}
               index={i}
